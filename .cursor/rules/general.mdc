@@ -1,0 +1,67 @@
+---
+description: General rules
+globs: *
+---
+
+
+# TypeScript (Expo)
+
+# TypeScript Mobile Development with Expo
+
+## Code Style and Structure
+- **Naming Conventions**: Use camelCase for variables and functions, PascalCase for components and types.
+- **TypeScript Usage**: Leverage TypeScript's type system for better code safety and maintainability.
+- **Syntax and Formatting**: Follow consistent formatting rules using Prettier and ESLint.
+
+## UI and Styling
+- **Safe Area Management**: Ensure UI components respect device safe areas using `react-native-safe-area-context`.
+- **Performance Optimization**: Optimize UI rendering with `React.memo` and `useMemo`.
+
+## Navigation
+- Use `@react-navigation` for seamless navigation between screens.
+- Implement deep linking for better user experience.
+
+## State Management
+- Use `React Context` or `Redux` for global state management.
+- Prefer `useReducer` for complex state logic.
+
+## Error Handling and Validation
+- Implement error boundaries to catch runtime errors.
+- Use `try/catch` blocks for asynchronous operations.
+
+## Security
+- Implement secure storage using `expo-secure-store`.
+- Validate and sanitize all user inputs.
+
+## Internationalization (i18n)
+- Use `i18next` for managing multiple languages.
+- Store translations in JSON files for easy maintenance.
+
+## Key Conventions
+- Follow Expo's best practices for Views, Blueprints, and Extensions.
+- Refer to Expo's official documentation for detailed guidelines.
+
+For more detailed information, refer to [Expo's documentation](mdc:https:/docs.expo.dev).
+
+# PROJECT OVERVIEW
+- eCommerce MVP mobile app serving both farmers and consumers with the following features:
+
+## Farmer Registration & Profile Management:
+- Prompt new farmer users on first login to enter key details: farmer name, farm name, and location (e.g., village name).
+- Store these details in their profile, with options for future updates.
+
+## Farmer Dashboard:
+- Enable farmers to list, manage, and update their produce.
+- Include screens for tracking orders, viewing product listings, and monitoring sales history with revenue charts.
+
+## Consumer Interface:
+- Allow consumers to browse and purchase products.
+- Unique Selling Proposition (USP): Enable product searches by farmer/farm name and location.
+- Display complete farmer/farm data on each product detail page, enhancing transparency and trust.
+
+## Multilingual Support:
+- Target the Telugu-speaking market by offering language toggle options:
+Telugu-only mode.
+- English-Telugu mixed mode, where both languages are displayed to help educate farmers on product names in English.
+
+This app is designed to empower farmers by streamlining the selling process, while also providing consumers with a rich, transparent buying experience.
