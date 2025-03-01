@@ -1,10 +1,9 @@
 ---
 description: General rules
 globs: *
+alwaysApply: false
 ---
-
-
-# TypeScript (Expo)
+# TypeScript (Expo, pnpm)
 
 # TypeScript Mobile Development with Expo
 

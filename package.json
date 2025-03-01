@@ -22,6 +22,7 @@
     "axios": "^1.7.9",
     "expo": "~52.0.37",
     "expo-blur": "~14.0.3",
+    "expo-checkbox": "^4.0.1",
     "expo-constants": "~17.0.7",
     "expo-font": "~13.0.4",
     "expo-haptics": "~14.0.1",
@@ -53,5 +54,6 @@
     "react-test-renderer": "18.3.1",
     "typescript": "^5.3.3"
   },
-  "private": true
+  "private": true,
+  "packageManager": "pnpm@10.5.2+sha256.79a98daa90248b50815e31460790f118c56fe099113370826caa0153be6daba5"
 }
